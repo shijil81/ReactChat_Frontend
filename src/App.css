@@ -1,0 +1,41 @@
+.chat-window {
+  border-left: 1px solid #ddd;
+}
+
+.message {
+  margin: 10px 0;
+}
+
+.message.text-end p {
+  background-color: #d4f7c5;
+}
+
+.message.text-start p {
+  background-color: #f6c7c7;
+ 
+}
+
+.scrollable-container {
+  height: 400px;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+.scrollable-container::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable-container-recent {
+  height: 450px;
+  overflow-y: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+/* Hide scrollbar for WebKit-based browsers (Chrome, Safari) */
+.scrollable-container-recent::-webkit-scrollbar {
+  display: none;
+}
+

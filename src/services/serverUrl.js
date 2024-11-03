@@ -1,0 +1,1 @@
+export const serverUrl='https://reactchat-backend-3i9u.onrender.com'
