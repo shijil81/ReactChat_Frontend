@@ -35,6 +35,7 @@ function Login() {
         sessionStorage.setItem("userId", result.data.existingUser._id);
         sessionStorage.setItem("token", result.data.token);
         alert('Login successful');
+        setUserDetails({ email: "", password: "" });
         navigate('/home');
       } else if (result.status === 406) {
         alert(result.response.data);
